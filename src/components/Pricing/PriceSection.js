@@ -60,7 +60,7 @@ export default class PlanSections extends React.Component {
                 validatedContacts={500}
                 machineNumber={5}
                 runtime={420}
-                tryPath="/onboard"
+                tryPath="/getstarted"
               />
             </Col>
             <Col sm="4">
@@ -70,7 +70,7 @@ export default class PlanSections extends React.Component {
                 validatedContacts={1100}
                 machineNumber={10}
                 runtime={640}
-                tryPath="/onboard"
+                tryPath="/getstarted"
               />
             </Col>
             <Col sm="4">
@@ -79,7 +79,7 @@ export default class PlanSections extends React.Component {
                 machineNumber="Custom"
                 runtime="Custom"
                 enterprise
-                tryPath="/onboard"
+                tryPath="/getstarted"
               />
             </Col>
           </Row>

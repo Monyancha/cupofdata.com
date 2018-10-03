@@ -12,6 +12,6 @@ const Iframe = styled.iframe`
   border: none;
 `
 
-const Onboarding = () => <Iframe src={`${process.env.GATSBY_ONBOARD_URL}`} />
+const GetStarted = () => <Iframe src={`${process.env.GATSBY_GETSTARTED_URL}`} />
 
-export default Onboarding
+export default GetStarted

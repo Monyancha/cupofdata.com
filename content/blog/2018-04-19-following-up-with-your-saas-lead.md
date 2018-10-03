@@ -59,4 +59,4 @@ To wrap things up… remember leads are real people just like you. Avoid the gen
 
 Would you like to know more? **Contact us today to schedule a demo!**
 
-[![](/files/images/button_schedule-a-demo.png)](https://www.cupofdata.com/onboard?utm_source=blog&utm_medium=cta&utm_campaign=demo)
+[![](/files/images/button_schedule-a-demo.png)](https://www.cupofdata.com/getstarted?utm_source=blog&utm_medium=cta&utm_campaign=demo)

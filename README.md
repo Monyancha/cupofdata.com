@@ -16,7 +16,7 @@ The code base for the primary [Cup of Data](https://www.cupofdata.com/) website.
 
 1. Fork this repo
 1. Clone the repo and `cd` into the repo directory
-1. Run `yarn` to install dependencies
+1. Run `npm install` to install dependencies
 1. Run `gatsby develop` to start a local server
 
 ## Production
@@ -30,8 +30,7 @@ The code base for the primary [Cup of Data](https://www.cupofdata.com/) website.
 
 | Variable Name            | Required | Default Value | Description                      |
 | ------------------------ | :------: | :-----------: | -------------------------------- |
-| `GATSBY_ONBOARD_URL`     |   Yes    |    `null`     | URL for the onboarding content.  |
-| `GATSBY_BETAFORM_URL`     |   Yes    |    `null`     | URL for the beta campaign.  |
+| `GATSBY_GETSTARTED_URL`  |   Yes    |    `null`     | URL for the get started content.  |
 | `SEGMENT_PROD_WRITE_KEY` |    No    |    `null`     | Segment API key for production.  |
 | `SEGMENT_DEV_WRITE_KEY`  |    No    |    `null`     | Segment API key for development. |
 

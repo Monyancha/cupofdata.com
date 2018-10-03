@@ -3,7 +3,6 @@ import PropTypes from 'prop-types'
 import { Container } from '../components/Layout'
 import graphql from 'graphql'
 import { ThemeProvider } from 'styled-components'
-import ContactSection from '../components/Contact'
 import Footer from '../components/Footer'
 import NavContainer from '../components/Navbar'
 
@@ -58,21 +57,18 @@ export default class TemplateWrapper extends React.Component {
   checkPath(props) {
     const { pathname } = props.location
     const undefinedReg = /404*\w/
-    const onboardReg = /onboard*\w/
-    const betaForm = /beta*\w/
+    const getStartedReg = /getstarted*\w/
     const hideNav =
       undefinedReg.test(pathname) ||
-      onboardReg.test(pathname) ||
-      betaForm.test(pathname)
-    this.setState({
-      hideNav,
-      theme: mainTheme.secondary,
-      secondary: true,
-      dropdown: false,
-    })
+      getStartedReg.test(pathname) ||
+      this.setState({
+        hideNav,
+        theme: mainTheme.secondary,
+        secondary: true,
+        dropdown: false,
+      })
   }
   render() {
-    const { data } = this.props
     return (
       <ThemeProvider theme={this.state.theme}>
         <div className="App">
@@ -93,7 +89,6 @@ export default class TemplateWrapper extends React.Component {
           <div className="pageContent">{this.props.children()}</div>
           {!this.state.hideNav && (
             <div>
-              <ContactSection data={data.allMarkdownRemark.edges} />
               <Footer />
             </div>
           )}

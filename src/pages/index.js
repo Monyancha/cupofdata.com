@@ -2,22 +2,10 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import graphql from 'graphql'
 import Helmet from 'react-helmet'
-import BannerSection from '../components/Home/BannerSection'
-import HowItWorks from '../components/Home/HowItWorks'
-import News from '../components/Home/News'
-import Benefits from '../components/Home/Benefits'
-import Testimonials from '../components/Home/Testimonials'
-import AutomatedMarketing from '../components/Home/AutomatedMarketing'
 
 const IndexPage = ({ data }) => (
   <div>
     <Helmet title={`Home | ${data.site.siteMetadata.title}`} />
-    <BannerSection data={data.allMarkdownRemark.edges} />
-    <HowItWorks />
-    <Benefits data={data} />
-    <News data={data} />
-    <Testimonials data={data} />
-    <AutomatedMarketing data={data.allMarkdownRemark.edges} />
   </div>
 )
 

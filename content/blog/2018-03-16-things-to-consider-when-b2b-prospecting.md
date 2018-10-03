@@ -81,4 +81,4 @@ Leading organizations have automated the B2B sales process as much as possible t
 
 Would you like to know more? **Contact us today to schedule a demo!**
 
-[![](/files/images/button_schedule-a-demo.png)](https://www.cupofdata.com/onboard?utm_source=blog&utm_medium=cta&utm_campaign=demo)
+[![](/files/images/button_schedule-a-demo.png)](https://www.cupofdata.com/getstarted?utm_source=blog&utm_medium=cta&utm_campaign=demo)

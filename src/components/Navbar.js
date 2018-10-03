@@ -213,28 +213,8 @@ export default class NavContainer extends React.Component {
           </MobileNav>
           <NavWrapper active={this.state.collapsible}>
             <NavItem>
-              <NavLink to="/features" onClick={this.moveTo}>
-                Features
-              </NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink to="/pricing" onClick={this.moveTo}>
-                Pricing
-              </NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink to="/about" onClick={this.moveTo}>
-                About
-              </NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink to="/blog" onClick={this.moveTo}>
-                Blog
-              </NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink to="/onboard" onClick={this.moveTo}>
-                Early Access
+              <NavLink to="/getstarted" onClick={this.moveTo}>
+                Get Started
               </NavLink>
             </NavItem>
           </NavWrapper>

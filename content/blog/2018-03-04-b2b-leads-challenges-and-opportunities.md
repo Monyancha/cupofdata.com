@@ -87,4 +87,4 @@ The sales rep that is able to offer the best message and get to the potential cu
 
 Would you like to know more? **Contact us today to schedule a demo!**
 
-[![](/files/images/button_schedule-a-demo.png)](https://www.cupofdata.com/onboard?utm_source=blog&utm_medium=cta&utm_campaign=demo)
+[![](/files/images/button_schedule-a-demo.png)](https://www.cupofdata.com/getstarted?utm_source=blog&utm_medium=cta&utm_campaign=demo)
