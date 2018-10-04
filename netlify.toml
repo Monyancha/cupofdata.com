@@ -1,0 +1,8 @@
+# A basic redirects rule
+[[redirects]]
+  from = "/admin"
+  to = "/admin/:splat"
+
+[[redirects]]
+  from = "https://blog.cupofdata.com"
+  to = "https://blog.cupofdata.com/blog/:splat"
