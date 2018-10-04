@@ -1,8 +1,11 @@
-# A basic redirects rule
 [[redirects]]
-  from = "/admin"
-  to = "/admin/:splat"
+from = "/admin"
+to = "/admin/"
+status = 301
+force = true
 
 [[redirects]]
-  from = "https://blog.cupofdata.com"
-  to = "https://blog.cupofdata.com/blog/:splat"
+from = "https://blog.cupofdata.com"
+to = "https://blog.cupofdata.com/blog/"
+status = 301
+force = true
