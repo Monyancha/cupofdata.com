@@ -1,7 +1,9 @@
+'use strict'
+
 const path = require('path')
 const _ = require('lodash')
 
-exports.createPages = ({ boundActionCreators, graphql }) => {
+exports.createPages = ({ actions, boundActionCreators, graphql }) => {
   const { createPage } = boundActionCreators
   return graphql(`
     {
