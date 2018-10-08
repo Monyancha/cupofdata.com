@@ -1,3 +1,5 @@
+**We are no longer maintaining this repo but are leaving open for historical purposes**
+
 # cupofdata.com
 
 [![node >= 8.x](https://img.shields.io/badge/node-%3E%3D%208.x-brightgreen.svg?style=flat-square)](https://nodejs.org/)
